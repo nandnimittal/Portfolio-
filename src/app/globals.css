@@ -122,6 +122,7 @@ html.light body {
   background-color: rgba(240, 247, 255, 0.9) !important;
 }
 
+
 ::selection {
   background: rgba(56, 189, 248, 0.35);
   color: white;
