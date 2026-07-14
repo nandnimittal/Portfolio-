@@ -70,9 +70,10 @@ export const aboutContent = {
 
 export const aboutTimeline: TimelineItem[] = [
   {
-    year: "2022",
-    title: "Started B.Tech",
-    description: "Began Computer Science Engineering at CGC Landran.",
+    year: "Now",
+    title: "Next Chapter",
+    description:
+      "Preparing for MSc Data Science and a Data Science career.",
   },
   {
     year: "2026",
@@ -80,10 +81,9 @@ export const aboutTimeline: TimelineItem[] = [
     description: "Graduated with CGPA 8.56 in CSE.",
   },
   {
-    year: "Now",
-    title: "Next Chapter",
-    description:
-      "Preparing for MSc Data Science and a Data Science career.",
+    year: "2022",
+    title: "Started B.Tech",
+    description: "Began Computer Science Engineering at CGC Landran.",
   },
 ];
 
