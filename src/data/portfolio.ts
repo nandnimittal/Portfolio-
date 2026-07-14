@@ -56,7 +56,7 @@ export const heroContent = {
 
 export const aboutContent = {
   intro:
-    "I recently completed my Bachelor of Engineering in Computer Science Engineering from Chandigarh Group of Colleges, Landran with a CGPA of 8.56.",
+    "Computer Science Engineering graduate passionate about Data Science, Artificial Intelligence, and Software Development, with hands-on experience in building modern web and data-driven applications.",
   interestsLabel: "My interests include:",
   interests: [
     "Data Science",
