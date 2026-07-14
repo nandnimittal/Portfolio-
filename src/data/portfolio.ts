@@ -90,68 +90,38 @@ export const aboutTimeline: TimelineItem[] = [
 export const skillCategories: SkillCategory[] = [
   {
     title: "Programming",
-    skills: [
-      { name: "Python", level: 90 },
-      { name: "C++", level: 85 },
-      { name: "Java", level: 88 },
-      { name: "SQL", level: 82 },
-      { name: "HTML", level: 85 },
-      { name: "CSS", level: 80 },
-      { name: "JavaScript", level: 75 },
-    ],
+    skills: ["Python", "C++", "Java", "SQL", "HTML", "CSS", "JavaScript"],
   },
   {
     title: "Data Science",
     skills: [
-      { name: "Pandas", level: 85 },
-      { name: "NumPy", level: 82 },
-      { name: "Matplotlib", level: 80 },
-      { name: "Data Cleaning", level: 88 },
-      { name: "Data Visualization", level: 85 },
-      { name: "EDA", level: 87 },
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Data Cleaning",
+      "Data Visualization",
+      "EDA",
     ],
   },
   {
     title: "Android",
-    skills: [
-      { name: "Java", level: 90 },
-      { name: "XML", level: 88 },
-      { name: "Firebase", level: 85 },
-      { name: "REST API", level: 86 },
-    ],
+    skills: ["Java", "XML", "Firebase", "REST API"],
   },
   {
     title: "Backend",
-    skills: [
-      { name: "Spring Boot", level: 75 },
-      { name: "REST APIs", level: 85 },
-    ],
+    skills: ["Spring Boot", "REST APIs"],
   },
   {
     title: "Database",
-    skills: [
-      { name: "SQL", level: 85 },
-      { name: "MongoDB", level: 70 },
-    ],
+    skills: ["SQL", "MongoDB"],
   },
   {
     title: "Tools",
-    skills: [
-      { name: "Git", level: 88 },
-      { name: "GitHub", level: 90 },
-      { name: "Figma", level: 72 },
-      { name: "Gradle", level: 80 },
-    ],
+    skills: ["Git", "GitHub", "Figma", "Gradle"],
   },
   {
     title: "Concepts",
-    skills: [
-      { name: "OOP", level: 90 },
-      { name: "DSA", level: 85 },
-      { name: "System Design", level: 70 },
-      { name: "Microservices", level: 68 },
-      { name: "Agile", level: 78 },
-    ],
+    skills: ["OOP", "DSA", "System Design", "Microservices", "Agile"],
   },
 ];
 

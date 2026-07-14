@@ -3,14 +3,9 @@ export interface NavLink {
   href: string;
 }
 
-export interface SkillItem {
-  name: string;
-  level: number;
-}
-
 export interface SkillCategory {
   title: string;
-  skills: SkillItem[];
+  skills: string[];
 }
 
 export interface Project {
