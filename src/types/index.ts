@@ -29,6 +29,7 @@ export interface EducationItem {
 export interface Certification {
   title: string;
   issuer: string;
+  certificate: string;
 }
 
 export interface TimelineItem {

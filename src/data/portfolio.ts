@@ -16,8 +16,8 @@ export const siteConfig = {
   description:
     "Computer Science Engineering graduate passionate about Data Science, Artificial Intelligence, Android Development, and Machine Learning. Building scalable applications and solving real-world problems.",
   url: "https://nandnimittal.vercel.app",
-  ogImage: "/images/og-image.svg",
-  profileImage: "/images/profile.png",
+  ogImage: "/assets/images/og-image.svg",
+  profileImage: "/assets/images/profile.png",
   githubUsername: "nandnimittal",
   resumePath: "/resume/CV_Data_Science.pdf",
 };
@@ -175,17 +175,18 @@ export const education: EducationItem[] = [
 ];
 
 export const certifications: Certification[] = [
-  { title: "AWS Academy Cloud Security Foundations", issuer: "AWS Academy" },
-  { title: "Python for Data Science", issuer: "Udemy" },
-  { title: "Data Science using Python", issuer: "Tech Live Solution" },
+  { title: "AWS Academy Cloud Security Foundations", issuer: "AWS Academy" , certificate: "/assets/certificate/AWS_Cloud_Security.png"},
+  { title: "Python for Data Science", issuer: "Udemy" , certificate: "/assets/certificate/Python_for_Data_Science.png"},
+  { title: "Data Science using Python", issuer: "Tech Live Solution" , certificate: "/assets/certificate/Data_Science_Python.png"},
   {
     title: "UI Path Automation Developer Associate",
     issuer: "UI Path · ICT Academy",
+    certificate: "/assets/certificate/UI_Path.png",
   },
-  { title: "NPTEL DBMS", issuer: "NPTEL" },
-  { title: "Android Technology", issuer: "Think Next" },
-  { title: "Generative AI Mastermind", issuer: "Outskill" },
-  { title: "HTML Attributes & Tags", issuer: "Great Learning" },
+  { title: "NPTEL DBMS", issuer: "NPTEL" , certificate: "/assets/certificate/NPTEL.png"},
+  { title: "Android Technology", issuer: "Think Next" , certificate: "/assets/certificate/Android.png"},
+  { title: "Generative AI Mastermind", issuer: "Outskill" , certificate: "/assets/certificate/Outskill.png"},
+  { title: "HTML Attributes & Tags", issuer: "Great Learning" , certificate: "/assets/certificate/HTML.png"},
 ];
 
 export const learningJourney = [
