@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nandni Mittal — Portfolio
+
+Premium personal portfolio built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
+
+## Features
+
+- Dark + blue glassmorphism theme with light/dark toggle
+- Smooth scroll, typing animation, particles, cursor glow, scroll progress
+- Animated skill progress bars and achievement counters
+- Live GitHub repositories via GitHub API
+- EmailJS contact form
+- SEO metadata + Open Graph
+- Fully responsive (mobile, tablet, desktop)
+- Vercel-ready deployment
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+cd portfolio
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## EmailJS Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create an account at [emailjs.com](https://www.emailjs.com/)
+2. Add an email service and create a template with variables:
+   - `from_name`
+   - `from_email`
+   - `message`
+3. Copy your Service ID, Template ID, and Public Key into `.env.local`:
 
-## Learn More
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=...
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=...
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=...
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Resume
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Place your PDF at:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+public/resume/Nandni_Mittal_Resume.pdf
+```
 
-## Deploy on Vercel
+## Profile Photo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replace the placeholder in the About section by adding an image under `public/images/` and updating `src/components/sections/About.tsx`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+```
+src/
+  app/                 # App Router pages & API
+  components/
+    effects/           # Particles, cursor glow, loader, scroll bar
+    layout/            # Navbar, Footer
+    sections/          # Page sections
+    ui/                # Reusable UI primitives
+  data/                # Portfolio content
+  lib/                 # Utils & theme
+  types/               # TypeScript types
+public/
+  resume/              # Resume PDF
+  images/              # Assets & OG image
+```
+
+## Deploy to Vercel
+
+1. Push this repo to GitHub
+2. Import the project in [Vercel](https://vercel.com)
+3. Add EmailJS env vars in Project Settings → Environment Variables
+4. Deploy
+
+Or use the CLI:
+
+```bash
+npm i -g vercel
+vercel
+```
+
+## Scripts
+
+| Command        | Description              |
+|----------------|--------------------------|
+| `npm run dev`  | Start development server |
+| `npm run build`| Production build         |
+| `npm run start`| Start production server  |
+| `npm run lint` | Run ESLint               |
+
+## Contact
+
+- Email: nandnimittal12d22@gmail.com
+- LinkedIn: [nandnimittal05](https://www.linkedin.com/in/nandnimittal05/)
+- GitHub: [nandnimittal](https://github.com/nandnimittal)

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050b18"/>
+      <stop offset="0.5" stop-color="#0a1628"/>
+      <stop offset="1" stop-color="#0c1a35"/>
+    </linearGradient>
+    <linearGradient id="text" x1="80" y1="240" x2="700" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="180" fill="#0ea5e9" opacity="0.15"/>
+  <circle cx="200" cy="520" r="220" fill="#2563eb" opacity="0.12"/>
+  <text x="80" y="250" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="28" letter-spacing="4">PORTFOLIO</text>
+  <text x="80" y="340" fill="url(#text)" font-family="system-ui,sans-serif" font-size="72" font-weight="700">Nandni Mittal</text>
+  <text x="80" y="410" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="28">Aspiring Data Scientist · Software Developer · Android</text>
+</svg>
