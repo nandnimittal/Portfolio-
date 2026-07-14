@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import type { CSSProperties } from "react";
 import {
   Braces,
   BrainCircuit,
@@ -69,7 +70,7 @@ export function Skills() {
             return (
               <GlassCard
                 key={category.title}
-                style={{ "--accent": accent } as React.CSSProperties}
+                style={{ "--accent": accent } as CSSProperties}
                 className="group relative h-full overflow-hidden border-white/15 bg-[rgba(8,16,32,0.45)] pl-6 shadow-[0_8px_32px_rgba(0,0,0,0.25)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)]/40 hover:shadow-[0_12px_40px_-8px_var(--accent)]"
               >
                 {/* Signature: accent rail, brightens on hover */}
